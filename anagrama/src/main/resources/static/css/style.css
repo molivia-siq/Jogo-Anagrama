@@ -1,0 +1,110 @@
+@font-face{
+    src: url(fontes/Viafont.otf);
+    font-family: 'anagrama';
+}
+
+@font-face{
+    src: url(fontes/Wedges.ttf);
+    font-family: 'geral';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #e19bad;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    background-color: #d78294;
+    height: 200px;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-family: 'anagrama';
+    /* border-right: 2px solid white; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+.esp{
+    height: 80px;
+    width: 100%;
+}
+
+.typing-animation{
+    animation: typing 2s steps(40) 1s normal both;
+}
+
+/* @keyframes blinkCursor{
+    from{
+        border-right-color: transparent;
+    }
+    to{
+        border-right-color: transparent;
+    }
+} */
+
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+    to{
+        width: 6.5em;
+    }
+}
+
+main{
+    background-color: #e19bad;
+}
+
+.container{
+    margin: auto;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+}
+
+.palavra-embaralhada{
+    border-bottom: 2px solid white;
+    padding-top: 70px;
+    font-size: 30px;
+    color: white;
+}
+
+.nav{
+    background-color: #e19bad;
+    text-align: center;
+    font-family: 'geral';
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+a{
+    margin: auto 20px;
+    color: #9E4F61;
+}
+
+.login{
+    font-family: 'geral';
+    font-size: 20px;
+    color: white;
+    padding-left: 290px;
+    /* border-bottom: 2px solid #9E4F61; */
+}
+
+button{
+    background-color: #d78294;
+    border: none;
+}
